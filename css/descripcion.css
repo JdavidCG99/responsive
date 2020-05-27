@@ -1,0 +1,186 @@
+/*  background: rgb(51,0,0);
+    background: linear-gradient(90deg, rgba(51,0,0,1) 13%, rgba(116,1,1,1) 49%, rgba(83,5,5,1) 77%);
+    background: rgb(235,235,235);
+    background: linear-gradient(90deg, rgba(235,235,235,1) 4%, rgba(207,207,207,1) 34%, rgba(194,192,192,1) 77%);
+    
+    */
+.cabecera{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    background: rgb(51,0,0);
+    background: linear-gradient(90deg, rgba(51,0,0,1) 13%, rgba(116,1,1,1) 49%, rgba(83,5,5,1) 77%);
+}
+.icono{
+    position: relative;
+    width: 8%;
+    height: 100px;
+    display: inline-block;
+}
+.imagen{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    position: relative;
+    width: 20%;
+    height: 100px;
+    left: 72%;
+    display: inline-block;
+}
+.principal{
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgb(235,235,235);
+    background: linear-gradient(90deg, rgba(235,235,235,1) 4%, rgba(207,207,207,1) 34%, rgba(194,192,192,1) 77%);
+    padding: 30px;
+    overflow-y: scroll;
+}
+.informacion{
+    position: relative;
+    width: 40%;
+    height: 320px;
+    display: inline-block;
+}
+.logo-mapa{
+    position: relative;
+    width: 26%;
+    height: 320px;
+    display: inline-block;
+    margin-left: 20px;
+    border: solid 5px rgb(124, 0, 0);
+}
+.logo-mapa:hover{
+    background: rgb(51,0,0);
+    background: linear-gradient(90deg, rgba(51,0,0,1) 13%, rgba(116,1,1,1) 49%, rgba(83,5,5,1) 77%);
+    border-bottom: 5px solid orangered;
+    border-top: 5px solid orangered;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+.menu-contacto{
+    position: relative;
+    top: 40px;
+    width: 45%;
+    height: 320px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.info2{
+    position: relative;
+    height: 380px;
+}
+.nombre{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    border-bottom: solid 5px red ;
+}
+.titulos{
+    position: absolute;
+    font-size: 44px;
+    font-family: cursive;
+    left: 20px;
+    color: red;
+    font-weight: bold;
+    top: 0px;
+}
+.titulos:hover{
+    font-size: 48px;
+}
+.texto{
+    position: absolute;
+    font-size: 32px;
+    font-family: cursive;
+    left: 20px;
+    color: rgb(0, 0, 0);
+}
+.texto:hover{
+    font-size: 36px;
+}
+.sad{
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+}
+.detalles{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 500px){
+    .cabecera{
+        height: 80px;
+    }
+    .icono{
+        width: 20%;
+        height: 80px;
+        position: fixed;
+    }
+    .logo{
+        position: fixed;
+        width: 45%;
+        height: 80px;
+        left: 60%;
+    }
+    .principal{
+        top: 80px;
+        padding-bottom: 60px;
+    }
+    .informacion{
+        left: 5px;
+        width: 90%;
+        height: 130px;
+    }
+    .titulos{
+        left: 0px;
+        font-size: 25px;
+        font-family: arial;
+    }
+    .nombre{
+        height: 35px;
+    }
+    .texto{
+        font-size: 20px;
+        font-family: arial;
+        left: 0px;
+        color: rgb(0, 0, 0);
+    }
+    .sad{
+        width: 100%;
+        height: 28px;
+        margin-top: 10px;
+    }
+    .logo-mapa{
+        width: 45%;
+        margin-left: 0px;
+        height: 150px;
+    }
+    .titulos:hover{
+        font-size: 25px;
+    }
+    .texto:hover{
+        font-size: 20px;
+    }
+    .detalles{
+        font-family: arial;
+        font-size: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .menu-contacto{
+        width: 90%;
+        top: 30px;
+        height: 200px;
+    }
+}
